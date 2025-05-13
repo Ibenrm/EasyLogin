@@ -1,0 +1,5 @@
+host: localhost
+userName: root
+passWord: kosong
+database: easylogin
+port: 3306

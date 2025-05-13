@@ -1,0 +1,25 @@
+name: EasyLogin
+version: '0.0.1'
+main: org.ibenrm01.easyLogin.EasyLogin
+api-version: '1.21'
+authors: [ Ibenrm01 ]
+description: This is EasyLogin Plugins
+commands:
+  register:
+    description: 'Register account for play'
+    aliases: [ regis ]
+    permission: player.register
+    permission-message: "You don't have permission!"
+  login:
+    description: 'Login account for play'
+    aliases: [ login ]
+    permission: player.login
+    permission-message: "You don't have permission!"
+  deleteacc:
+    description: 'Delete account players'
+    aliases: [ delacc ]
+    permission: op.deleteacc
+  repassword:
+    description: 'Set New Password players'
+    aliases: [ repass ]
+    permission: op.repass
